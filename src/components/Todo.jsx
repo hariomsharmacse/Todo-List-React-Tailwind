@@ -51,14 +51,14 @@ const Todo = () => {
   return (
     <div className="backdrop-blur-md shadow-inner bg-black opacity-90 place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl">
       
-    <div className="flex flex-col justify-center text-orange-600">
-      <div className="text-orange-600 text-4xl tracking-wide flex items-center font-semibold gap-2">
+    <div className="flex flex-col justify-center">
+      <div className="text-green-600 text-4xl tracking-wide flex items-center font-semibold gap-2">
     <LuListTodo className="mt-1"/>
       <h1>Todo List</h1>
       </div>
       <div className="flex items-center my-7 bg-gray-200 rounded-full">
       <input ref={inputRef} type="text" className="bg-transparent border-0 outline-none flex-1 h-14 pl-6 pr-2 placeholder:text-slate-600" placeholder="Add your task" />
-      <button onClick={add} className="border-none rounded-full bg-orange-600 w-32 h-14 text-white text-lg font-medium cursor-pointer">Add Todo</button>
+      <button onClick={add} className="border-none rounded-full bg-green-600 w-32 h-14 text-white text-lg font-medium cursor-pointer">Add Todo</button>
       </div>
     </div>
 
