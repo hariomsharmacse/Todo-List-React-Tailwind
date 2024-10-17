@@ -56,9 +56,9 @@ const Todo = () => {
     <LuListTodo className="mt-1"/>
       <h1>Todo List</h1>
       </div>
-      <div className="flex items-center my-7 bg-gray-200 rounded-full">
-      <input ref={inputRef} type="text" className="bg-transparent border-0 outline-none flex-1 h-14 pl-6 pr-2 placeholder:text-slate-600" placeholder="Add your task" />
-      <button onClick={add} className="border-none rounded-full bg-green-600 w-32 h-14 text-white text-lg font-medium cursor-pointer">Add Todo</button>
+      <div className="flex items-center my-7 bg-gray-200 rounded-[18px]">
+      <input ref={inputRef} type="text" className="bg-transparent border-0 outline-none w-[80%] h-14 pl-6 pr-2 placeholder:text-slate-600" placeholder="Add your task" />
+      <button onClick={add} className="border-none rounded-[18px] bg-green-600 w-[100px] h-14 text-white text-lg font-medium cursor-pointer]">Add Todo</button>
       </div>
     </div>
 

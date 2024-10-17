@@ -2,7 +2,7 @@ import Todo from "./components/Todo"
 
 const App = () => {
   return (
-    <div className="bg-custom-bg grid py-4 min-h-screen bg-cover">
+    <div className="bg-custom-bg flex justify-center items-center py-4 min-h-screen bg-cover">
       <Todo />
     </div>
   )
